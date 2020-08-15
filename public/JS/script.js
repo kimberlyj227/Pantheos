@@ -131,7 +131,7 @@ $(document).ready(function () {
     }
 
     $("#studentCard").append(
-      `<div data-id= "${student.id}" class="card mt-3 col-md-4">
+      `<div data-id= "${student.id}" class="card mt-3 col-md-3">
         <div class="card-header text-center">
         <h5 class="student-name">${student.first_name} ${student.last_name}</h5>
         </div>
@@ -141,7 +141,7 @@ $(document).ready(function () {
       <p class="card-text studentDetention">Detention: <span class="hasDetention"> ${student.detention? "Yes" : "No"}</span> </p> 
       </div>
 
-      <div class="card-footer mx-auto">
+      <div class="card-footer">
       <div class="btn-group" role="group">
 
       <button type="button"class="btn darkblue" data-id=${student.id} data-toggle="modal" data-target="#updateModal" id="edit">Edit</button>

@@ -1,20 +1,14 @@
 /* ------ GLOBAL ------- */
 
-.body {
-    margin: 0;
-}
 body {
-    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    background-color: rgb(255, 253, 239);
 }
 
 h1 {
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-h4, .lead{
-    font-family: 'Sen', sans-serif;
-}
-
 
 .yellow {
     background-color: #d6bc43;
@@ -36,7 +30,6 @@ h4, .lead{
     color: whitesmoke;
 }
 
-
 h3, h5 {
     color: rgb(61, 61, 61);
 }
@@ -45,6 +38,7 @@ h3, h5 {
 header {
     margin: 0;
 }
+
 .jumbotron {
     background-image: url("/images/books.jpg");
     background-size: cover;
@@ -69,14 +63,13 @@ header {
 #studentCard {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    background-image: url("../images/dot-grid.jpg");
-    
+    flex-direction: row;  
 }
 
 .card {
     margin: 10px;
     height: 300px;
+    background-color: rgba(255, 255, 255, 0.507);
     
 }
 
@@ -94,6 +87,10 @@ header {
     color: whitesmoke;
 }
 
+.card-footer {
+    margin: 0 auto;
+}
+
 
 
 /* ------ SIDEBAR ------ */
@@ -105,8 +102,9 @@ header {
     margin: 0 auto;
 }
 
-.custom-select-lg, custom-select {
+.custom-select-lg, .custom-select, .form-control {
     color: #319DD2;
+    background-color: transparent;
 }
 
 .custom-select-lg:active {
