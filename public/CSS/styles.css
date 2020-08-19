@@ -89,6 +89,8 @@ header {
 
 .card-footer {
     margin: 0 auto;
+    padding: .75rem;
+    padding-left: .25rem;
 }
 
 
