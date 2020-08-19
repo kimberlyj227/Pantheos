@@ -121,17 +121,16 @@ $(document).ready(function () {
 
   // ------- FUNCTION TO RENDER STUDENT CARDS ----------- 
   const renderStudentCard = (teacher, student) => {
-
     if (student.grade === 6) {
-      grade = "blue"
+      grade = "blue";
     } else if (student.grade === 7) {
-      grade = "red"
+      grade = "red";
     } else {
-      grade = "eighth"
+      grade = "eighth";
     }
 
     $("#studentCard").append(
-      `<div data-id= "${student.id}" class="card mt-3 col-md-3">
+      `<div data-id= "${student.id}" class="card mt-3 col-md-4">
         <div class="card-header text-center">
         <h5 class="student-name">${student.first_name} ${student.last_name}</h5>
         </div>
